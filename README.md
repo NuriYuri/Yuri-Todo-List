@@ -30,6 +30,7 @@ Le nom de fichier TODO est contenu dans <b>$_TODO_FILENAME</b>, par défauts tou
 * pop : permet de supprimer des objectifs. (Droit utile qu'au corps décisionnel du projet.)
 * clear : permet de vider la liste des objectifs si l'utilisateur peut supprimer des objectifs. (Ne donnez jamais ce droit !)
 * download : permet de télécharger la version réel de la TODO List ou une version moins abrupte.
+
 #### Traduction / Customisation
 La variable $txt contient quasiment tout ce que php peut vous cracher à la gueule en terme de texte lisible et parfois stylé.<br/>
 Certains fichiers sont écrits en brute dans du html, notamment tous les dialogs qui apparaissent (dossier modal).
