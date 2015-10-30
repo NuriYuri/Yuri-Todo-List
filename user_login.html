@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Connexion au gestionnaire de TODO List</title>
+    <meta charset="utf-8">
+    <meta name="author" content="Nuri Yuri">
+    <meta name="description" content="Connexion au gestionnaire de TODO List.">
+    <meta name="application-name" content="todo.login">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div id="login_error" style="display: none;">
+      <h1 style="color: #900000">Erreur de connexion</h1>
+      <p>Le login ou le mot de passe est incorrect.</p>
+      <p>Si vous éprouvez des difficultés à vous connecter, veuillez contacter l’administrateur.</p>
+    </div>
+    <h1>Connexion à l'espace de gestion de la liste des tâches à effectuer</h1>
+    <p>Veuillez remplir le formulaire suivant afin de démarrer la session.</p>
+    <form action="index.php" method="post" id="global_login">
+      <dl class="form-group">
+        <dt id="todo_login"><span>Nom d'utilisateur&nbsp;: </span><input name="login" type="text" class="form-control"/></dt>
+        <dt id="todo_password"><span>Mot de passe&nbsp;: </span><input name="password" type="password" class="form-control"/></dt>
+        <dt id="todo_validate_login"><button type="submit" class="btn btn-primary">Se connecter</button></dt>
+      </dl>
+    </form>
+    <script>if(document.referrer == document.location.href){document.getElementById('login_error').style.display = 'block';}</script>
+  </body>
+</html>

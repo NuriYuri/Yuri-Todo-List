@@ -1,0 +1,20 @@
+<Files login_check.php>
+Order deny,allow 
+Deny from all
+</Files>
+<Files todo_list_manager.php>
+Order deny,allow 
+Deny from all
+</Files>
+<Files configuration.php>
+Order deny,allow 
+Deny from all
+</Files>
+<Files *.log>
+Order deny,allow 
+Deny from all
+</Files>
+<Files *.txt>
+Order deny,allow 
+Deny from all
+</Files>

@@ -1,0 +1,53 @@
+/* - Icones des listes : https://code.google.com/p/twotiny/downloads/detail?name=twotone.zip */
+li.todo {
+  list-style-image: url('hourglass.gif');
+}
+li.todo_done {
+  list-style-image: url('checkmark.gif');
+}
+li.todo_important {
+  list-style-image: url('caution.gif');
+}
+ul#todo_list > li > ul > li {
+  list-style-image: initial;
+}
+
+#logoff {
+  text-align: center;
+}
+
+#logoff a {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#todo_login span, #todo_password span ,#todo_login input, #todo_password input {
+  display: inline-block;
+  width: 130px;
+}
+
+#todo_validate_login {
+  padding-left: 136px;
+}
+
+#global_login {
+  text-align: center;
+}
+
+#global_login dl {
+  text-align: initial;
+  display: inline-block;
+}
+
+.panel-heading h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 8px;
+}
+
+dt {
+  padding: 2px;
+}
